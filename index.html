@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <title>Etch-A-Sketch</title>
+  </head>
+  <body>
+    <header><h1>ETCH-A-SKETCH</h1></header>
+    <main>
+      <div class="inputs">
+        <div class="buttons">
+          <h3>Sketch Type</h3>
+          <button class="button-active">Black</button>
+          <button>Greyscale</button>
+          <button>Clear</button>
+        </div>
+        <div class="grid-size">
+          <h3>Grid Size</h3>
+          <button class="button-size button-active">16x16</button>
+          <button class="button-size">64x64</button>
+          <button class="button-size">128x128</button>
+          <button class="button-size">256x256</button>
+        </div>
+      </div>
+      <div class="gridbox"></div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
