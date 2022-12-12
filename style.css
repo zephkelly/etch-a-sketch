@@ -30,6 +30,11 @@ main {
   margin-bottom: 3vw;
 }
 
+  .buttons h3 {
+    margin: 0;
+    margin-bottom: 0.2rem;
+  }
+
 .grid-size {
   width: 15vw;
 }
